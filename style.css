@@ -11,10 +11,88 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Dublin", serif;
-}
-
-h1,h2,h3{
     font-family: "Ubuntu", serif;
 }
 
+.clear{
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+h1,h2,h3{
+    font-family: "Dublin", serif;
+    text-align: center;
+    margin: 15px;
+}
+
+p {
+    text-align: center;
+    margin: 5px;
+    font-size: 14px;
+}
+.grande{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.deux_img{
+    margin: 10px;
+}
+
+.img_droite{
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+}
+
+.img_gauche{
+    float: right;
+    width: 45%;
+    margin-right: 2%;
+}
+
+.trois_img{
+    margin: 10px;
+    text-align: center;
+}
+
+.img_un{
+    width: 45%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.img_deux{
+    width: 45%;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.img_trois{
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+    .img_un{
+        width: 30%;
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    .img_deux{
+        width: 30%;
+        display: inline-block;
+        margin: 2% 0;
+    }
+
+    .img_trois{
+        width: 30%;
+        display: inline-block;
+        margin-left: 2%;
+    }
+}
